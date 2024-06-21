@@ -13,7 +13,7 @@ const playlistSchema = new Schema({
     },
     status: {
         type: Boolean,
-        required
+        required: true
     }
 })
 
